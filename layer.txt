@@ -1,0 +1,13 @@
+0,Make a breakable Loop,,,
+0,Determine the difficulty level,,,
+1,Validate input for difficulty levels from users,,,
+1,Get the difficulty level as a character,https://www.google.com/search?q=java+user+input+validation+while&ie=utf-8&oe=utf-8,https://gist.github.com/Neo-Hao/f0a1c63093a4aaec658d
+0,Initiate the word,,,
+1,Prepare a constantly updated word for comparison,https://www.google.com/search?q=java+user+input+validation+while&ie=utf-8&oe=utf-8#q=java+string+concatenation,https://gist.github.com/Neo-Hao/54696fdf5cb7f7912a10
+0,Determine whether the user wins,,,
+1,Get the input for number of guesses,,,
+1,Make a loop by the number of guesses,,,
+1,Get a valid guess,,,
+1,Get valid spaces,,,
+1,Determine whether the guess is correct,https://www.google.com/search?q=java+user+input+validation+while&ie=utf-8&oe=utf-8#q=java+flag+controlled+while+loop,https://gist.github.com/Neo-Hao/cf37c258b8c747d2450b
+0,Ask users whether to play again,,,

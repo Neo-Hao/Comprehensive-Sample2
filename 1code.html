@@ -1,0 +1,76 @@
+/* --------------- File User.java ------------------ */
+public class User{
+	// ask user to choose difficulty level
+	public static char difficulty() {
+		char level;
+		
+		while(true) {
+			System.out.println("Enter your difficulty level:");
+			Scanner keyboard = new Scanner(System.in);
+			String input = keyboard.nextLine().toLowerCase();
+			
+			try {
+				if (validation(input) == true) {
+					level = getLevel(input);
+					return level;
+				} else {
+					System.out.println("Your input is invalid. "
+					."Please re-enter your difficulty level:");
+				}
+			} catch (NumberFormatException nFE){
+				System.out.println("Your input is invalid. "
+				."Please re-enter your difficulty level:");
+			}
+		}	
+	}
+
+	// validate the input
+	private static boolean validation(String str) {}
+
+	// return the difficulty level, assuming validated
+	public static char getLevel(String str) {}
+
+	// ask user whether to play
+	public static boolean whetherPlay() {}
+}
+
+/* --------------- File Game.java ------------------ */
+public class Game {
+	public static String theWord;
+	public static String theUpdatedWord;
+	
+	// initialize the words
+	public static void initializeWords() {}
+
+	// pre-process the word using '---' and keep updating it
+	public static String updatedWord(String theWord) {}	
+	
+	// determine whether the user wins the round
+	public static boolean whetherWin(char difficulty) {
+		int numberOfGuess, numberOfSpaces;
+		char guess;
+		
+		// decide the number of guesses and number of digits
+		if (difficulty == 'e') {
+			// your code goes here
+		} else if (difficulty == 'i') {
+			// your code goes here
+		} else {
+			// your code goes here
+		}
+		
+		int[] spaces = new int[numberOfSpaces];
+		
+		// play for n times; n <= numberOfGuess
+		for (int i = numberOfGuess; i >= 1; i--) {
+			// get a valid guess and valid spaces
+			guess = validGuess();
+			spaces = validSpaces(numberOfSpaces);
+			// determine whether it is guessed out
+			if (whetherCorrectGuess(guess, i)) {
+				return true;
+			}
+		}
+		return false;	
+	}
+}

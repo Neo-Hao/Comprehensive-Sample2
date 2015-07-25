@@ -63,13 +63,7 @@ public class Game {
 		
 		// play for n times; n <= numberOfGuess
 		for (int i = numberOfGuess; i >= 1; i--) {
-			// get a valid guess and valid spaces
-			guess = validGuess();
-			spaces = validSpaces(numberOfSpaces);
-			// determine whether it is guessed out
-			if (whetherCorrectGuess(guess, i)) {
-				return true;
-			}
+			// next level
 		}
 		return false;	
 	}

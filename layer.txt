@@ -1,7 +1,7 @@
 0,Make a breakable Loop - in the loop do the following things:,,,
 0,Determine the difficulty level,,,
-1,Validate input for difficulty levels from users,,,
-1,Get the difficulty level as a character,https://www.google.com/search?q=java+user+input+validation+while&ie=utf-8&oe=utf-8,https://gist.github.com/Neo-Hao/f0a1c63093a4aaec658d
+1,Validate input for difficulty levels from users,https://www.google.com/search?q=java+user+input+validation+while&ie=utf-8&oe=utf-8,,
+1,Get the difficulty level as a character,,https://gist.github.com/Neo-Hao/f0a1c63093a4aaec658d
 0,Initiate the word,,,
 1,Prepare a constantly updated word for comparison,https://www.google.com/search?q=java+user+input+validation+while&ie=utf-8&oe=utf-8#q=java+string+concatenation,https://gist.github.com/Neo-Hao/54696fdf5cb7f7912a10
 0,Determine whether the user wins,,,

@@ -5,21 +5,17 @@ public class User{
 		char level;
 		
 		while(true) {
-			System.out.println("Enter your difficulty level:");
-			Scanner keyboard = new Scanner(System.in);
-			String input = keyboard.nextLine().toLowerCase();
+			/*---Save input from user in a variable named input---*/
 			
 			try {
 				if (validation(input) == true) {
 					level = getLevel(input);
 					return level;
 				} else {
-					System.out.println("Your input is invalid. "
-					."Please re-enter your difficulty level:");
+					/*---Alert for invalid input---*/
 				}
 			} catch (NumberFormatException nFE){
-				System.out.println("Your input is invalid. "
-				."Please re-enter your difficulty level:");
+				/*---Alert for invalid input---*/
 			}
 		}	
 	}
@@ -48,23 +44,10 @@ public class Game {
 	// determine whether the user wins the round
 	public static boolean whetherWin(char difficulty) {
 		int numberOfGuess, numberOfSpaces;
+		int[] spaces = new int[numberOfSpaces];
 		char guess;
 		
-		// decide the number of guesses and number of digits
-		if (difficulty == 'e') {
-			// your code goes here
-		} else if (difficulty == 'i') {
-			// your code goes here
-		} else {
-			// your code goes here
-		}
-		
-		int[] spaces = new int[numberOfSpaces];
-		
-		// play for n times; n <= numberOfGuess
-		for (int i = numberOfGuess; i >= 1; i--) {
-			// next level
-		}
-		return false;	
+		/*---Determine number of guesses and number of digits---*/
+		/*---Let users guess for numberOfGuess times--Next Level---*/
 	}
 }
